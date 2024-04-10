@@ -11,6 +11,28 @@ body{
     align-items: center;
 }
 
+.form-hold{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100vh;
+    gap: 100px;
+}
+
+.left {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    }
+    
+    img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover
+    }
+
 .form-right{
     height:600px;
     width: 50%;
@@ -23,8 +45,6 @@ body{
 }
 .form-right-inner{
     width: 90%;
-    
-
 }   
 
  .form-right h1{
