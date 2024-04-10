@@ -10,3 +10,73 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.form-right{
+    height:600px;
+    width: 50%;
+    background-color: rgb(144, 51, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+     
+}
+.form-right-inner{
+    width: 90%;
+    
+
+}   
+
+ .form-right h1{
+    margin-bottom: 30px;
+    text-align: center;
+ }
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.form-input input{
+    height: 40px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:transparent;
+    /* opacity: 0.2; */
+    color: black;
+    font-weight: 600;
+    padding: 0px 10px;
+     
+}
+
+.btn button{
+  padding: 10px 50px;
+  border: none;
+  font-size: 18px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: transparent;
+  
+}
+.btn{
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+}
+
+.reset a{
+color: black;
+}
+
+.reset {
+   width: 100%;
+   display: flex;
+   justify-content: center ;
+   align-items: center;    
+   margin-top: 20px;
+}
