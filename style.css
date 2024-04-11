@@ -29,73 +29,93 @@ body{
     }
     
     img{
-        width: 70%;
+        width: 60%;
         height: 500px;
+        margin-bottom: 60%;
+        margin-left: 10px;
     }
 
 .form-right{
-    height:300px;
-    width: 50%;
+    height:350px;
+    width: 37%;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-top: -148px;
+    margin-left: -70px;
      
 }
 .form-right-inner{
-    width: 60%;
+    width: 92%;
+
 }   
 
 .form-input{
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 20px;
-    
+    margin-bottom: 30px;
 }
 
 .form-input input{
-    height: 40px;
+    height: 50px;
     outline: none;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 1px solid #ededed;
+    border-radius: 7px;
     background-color:transparent;
     /* opacity: 0.2; */
     color: black;
     font-weight: 600;
     padding: 0px 10px;
-     
+    margin-top: -17px;
 }
 
 .btn button{
-  padding: 10px 50px;
+  padding: 14px 10px;
   border: none;
   font-size: 18px;
-  color: black;
-  border: 1px solid black;
-  border-radius: 7px;
-  background-color: transparent;
+  color: white;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  background-color: #42b72a;
+  font-weight: bold;
   
 }
 .btnn button{
-    padding: 10px 50px;
+    padding: 14px 50px;
     border: none;
     font-size: 18px;
-    color: black;
-    border: 1px solid black;
-    border-radius: 7px;
-    background-color: transparent;
-    
+    color: white;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: #0866ff;
+    margin-bottom: 10px;
+    width: 100%;
+    font-weight: bold;
   }
 .btn{
-    width: 100% ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btnn{
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .reset a{
-color: black;
+color: blue;
+}
+
+.Line{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
 }
 
 .reset {
